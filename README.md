@@ -87,11 +87,7 @@ Kontribusi selalu diterima! Berikut langkah-langkah untuk berkontribusi:
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## Kontak
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
-
-Project Link: [https://github.com/yourusername/crypto-vision-predictor](https://github.com/yourusername/crypto-vision-predictor)
+Project Link: [https://github.com/Fahrizal0112/crypto-vision-predictor](https://github.com/Fahrizal0112/crypto-vision-predictor)
 
 ## Acknowledgments
 
