@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# Crypto Vision Predictor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplikasi web untuk memprediksi harga cryptocurrency menggunakan analisis data dan machine learning. Aplikasi ini menyediakan prediksi harga untuk 24 jam ke depan dengan visualisasi data yang interaktif.
 
-## Available Scripts
+## Fitur
 
-In the project directory, you can run:
+- 🎯 Prediksi harga cryptocurrency untuk 24 jam ke depan
+- 📊 Visualisasi data aktual dan prediksi dalam bentuk grafik
+- 🔄 Support untuk berbagai cryptocurrency populer
+- 📱 Tampilan responsif dan modern
+- 🌐 Dukungan multi-bahasa (Indonesia & English)
+- 📈 Analisis pasar dan indikator teknikal
+- 💡 Level support dan resistance
+- 🔍 Pencarian cryptocurrency
 
-### `npm start`
+## Cryptocurrency yang Didukung
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Bitcoin (BTC) ₿
+- Ethereum (ETH) Ξ
+- Binance Coin (BNB)
+- Ripple (XRP)
+- Cardano (ADA) ₳
+- Solana (SOL) ◎
+- Polkadot (DOT)
+- Dogecoin (DOGE) Ð
+- Dan lainnya...
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Teknologi yang Digunakan
 
-### `npm test`
+- React.js
+- Material-UI
+- Recharts
+- Axios
+- Machine Learning API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Cara Menjalankan Aplikasi
 
-### `npm run build`
+1. Clone repository
+```bash
+git clone https://github.com/yourusername/crypto-vision-predictor.git
+cd crypto-vision-predictor
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install dependencies
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Jalankan aplikasi
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Aplikasi akan berjalan di [http://localhost:3000](http://localhost:3000)
 
-### `npm run eject`
+## Konfigurasi API
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Aplikasi ini menggunakan endpoint API prediksi:
+```javascript
+const API_URL = 'https://your-api-endpoint.com/predict'
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Pastikan untuk mengubah URL API sesuai dengan endpoint yang Anda gunakan.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Fitur Prediksi
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Aplikasi menyediakan berbagai informasi prediksi:
+- Harga saat ini
+- Rentang prediksi (high/low)
+- Tingkat kepercayaan prediksi
+- Analisis trend
+- Indikator teknikal
+- Support & resistance levels
+- Sentiment pasar
 
-## Learn More
+## Kontribusi
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Kontribusi selalu diterima! Berikut langkah-langkah untuk berkontribusi:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork repository
+2. Buat branch baru (`git checkout -b feature/AmazingFeature`)
+3. Commit perubahan (`git commit -m 'Add some AmazingFeature'`)
+4. Push ke branch (`git push origin feature/AmazingFeature`)
+5. Buat Pull Request
 
-### Code Splitting
+## Lisensi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Distributed under the MIT License. See `LICENSE` for more information.
 
-### Analyzing the Bundle Size
+## Kontak
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
 
-### Making a Progressive Web App
+Project Link: [https://github.com/yourusername/crypto-vision-predictor](https://github.com/yourusername/crypto-vision-predictor)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [React.js](https://reactjs.org/)
+- [Material-UI](https://mui.com/)
+- [Recharts](https://recharts.org/)
+- [Cryptocurrency Icons](https://cryptoicons.org/)
